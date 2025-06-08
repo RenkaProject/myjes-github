@@ -1,0 +1,83 @@
+/* Warna tema */
+body {
+    background-color: rgb(105, 105, 186);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    color:black;
+    padding: 30px;
+}
+
+/* Kontainer utama */
+.container {
+    max-width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Judul & subtitle */
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.warning {
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+}
+
+/* Pemutar Musik */
+.music-container {
+    margin: 25px 0;
+}
+
+/* Tombol interaktif */
+.btn {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+/* Kejutan */
+.hidden {
+    display: none;
+}
+
+/* Galeri Foto */
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.video-container video {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECRET WEBSITE 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">WELCOME TO ALAN OFFICIAL WEBSITE</h1>
+        <p class="subtitle">Mohon ikuti langkah-langkah di website ini agar tidak terjadi kesalahan.</p>
+        <p class="subtitle warning">🔊 SEBELUM KLIK LANJUTKAN, PUTAR LAGU DI BAWAH DAN JANGAN GUNAKAN VOLUME TERLALU KERAS 🔊</p>
+
+        <!-- Pemutar Musik -->
+<div class="music-container">
+    <audio id="birthdaySong" controls>
+        <source src="TULUS - Diri (Official Lyric Video).mp3" type="audio/mp3">
+        Browser Anda tidak mendukung pemutar audio.
+    </audio>
+</div>
+
+<script>
+    // Ambil elemen audio
+    const audio = document.getElementById("birthdaySong");
+
+    // Tambahkan event listener untuk memutar ulang saat lagu selesai
+    audio.addEventListener("ended", function() {
+        this.currentTime = 0; // Set waktu kembali ke awal
+        this.play(); // Putar ulang lagu
+    });
+</script>
+        <!-- Tombol Interaktif -->
+        <button class="btn" onclick="showSurprise()">JIKA SUDAH, KLIK UNTUK LANJUTKAN</button>
+        
+        <!-- Kejutan -->
+       <div id="surprise" class="hidden">
+            <h1>Selamat ulang tahun, sayang!❤️💕🎉🎈🎊</h1>
+            <h1>00.00 09.06.2025</h1>
+            
+            <p class="message">Hari ini adalah hari yang istimewa—bukan hanya karena ini adalah hari di mana kamu lahir, tetapi juga karena ini adalah kesempatan untuk merenungkan betapa berharganya dirimu dalam hidupku dan dalam kehidupan orang-orang di sekitarmu. Aku ingin memanfaatkan momen ini untuk benar-benar menyampaikan betapa aku menghargai kehadiranmu, betapa kamu telah membawa begitu banyak kebahagiaan dalam hidupku, dan betapa aku beruntung bisa mengenalmu, mencintaimu, dan berjalan bersama kamu melalui perjalanan ini.
+
+Aku masih ingat pertama kali kita mulai berbagi cerita, bagaimana segala sesuatunya terasa begitu alami, begitu hangat, dan begitu penuh makna. Sejak saat itu, setiap hari yang aku lalui bersamamu selalu memberikan pelajaran baru, kebahagiaan baru, dan rasa syukur yang semakin besar. Kamu bukan hanya seseorang yang hadir dalam hidupku, tetapi kamu adalah bagian penting dari keseharianku—seseorang yang selalu membuatku merasa dihargai, didukung, dan dimengerti. Aku tidak bisa membayangkan hidupku tanpa keberadaanmu, dan setiap tahun yang berlalu hanya semakin membuktikan betapa berharganya kamu bagi aku.
+
+Aku tahu bahwa hidup tidak selalu berjalan sesuai dengan yang kita harapkan. Ada tantangan, ada rintangan, ada saat-saat sulit yang membuat kita merasa ragu dan lelah. Tapi satu hal yang selalu membuat segalanya terasa lebih mudah adalah mengetahui bahwa aku memiliki kamu—seseorang yang selalu berusaha, yang selalu kuat, yang selalu penuh dengan semangat dan ketulusan. Aku melihat bagaimana kamu menghadapi setiap tantangan, bagaimana kamu selalu berusaha untuk melakukan yang terbaik, dan bagaimana kamu tetap setia pada nilai-nilai yang kamu pegang. Itu semua membuatku semakin kagum dan semakin mencintaimu. Kamu bukan hanya seseorang yang luar biasa, tetapi juga seseorang yang menginspirasi. 
+
+Hari ini, aku ingin kamu benar-benar menikmati setiap momen yang terjadi. Aku ingin kamu merasakan betapa istimewanya dirimu—bukan hanya karena ini adalah ulang tahunmu, tetapi juga karena kamu memang pantas untuk merasakan kebahagiaan yang besar. Aku ingin kamu melihat kembali perjalanan yang telah kamu tempuh, setiap pencapaian yang telah kamu raih, setiap tantangan yang telah kamu hadapi, dan setiap impian yang masih menunggu untuk diwujudkan. Aku percaya bahwa kamu memiliki begitu banyak potensi dan bahwa kamu akan mencapai hal-hal yang luar biasa. Aku akan selalu berada di sini, mendukungmu, menyemangatimu, dan merayakan setiap langkahmu menuju masa depan yang lebih cerah.
+
+Aku juga ingin mengucapkan terima kasih. Terima kasih karena telah menjadi bagian dari hidupku, terima kasih karena telah mempercayaiku, terima kasih karena telah memberikan begitu banyak kebahagiaan dalam keseharianku. Tidak ada kata yang cukup untuk menggambarkan betapa aku menghargai kamu dan semua yang telah kita lalui bersama. Aku berjanji bahwa aku akan selalu berusaha menjadi seseorang yang bisa menemanimu, mendukungmu, dan mencintaimu dengan cara terbaik yang aku bisa.
+
+Jadi, sayang, selamat ulang tahun sekali lagi! Semoga setiap harapanmu bisa terwujud, semoga kamu selalu diberkahi dengan kebahagiaan dan kesuksesan, dan semoga kamu selalu dikelilingi oleh orang-orang yang mencintaimu dan menghargaimu, termasuk aku. Aku mencintaimu, aku menghormatimu, dan aku sangat bersyukur memiliki kamu dalam hidupku.
+
+Nikmati hari ini, karena ini adalah hari untuk merayakan dirimu—seorang yang luar biasa, seorang yang pantas mendapatkan kebahagiaan, dan seorang yang aku selalu banggakan.❤️💖✨🎉🎂
+</p>
+
+           <h1>🎥 ARSIP KITA : 🎥</h1>
+<div class="video-container">
+    <video controls width="300">
+        <source src="WhatsApp Video 2025-06-08 at 23.33.44_fc694366.mp4 " type="video/mp4">
+    </video>
+</div>
+                
+                <!-- Tambahkan lebih banyak video -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
